@@ -1,234 +1,111 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DWANGU</title>
+<title>DWANGU | Less Noise. More Style.</title>
 
-<style>
+<link rel="stylesheet" href="style.css">
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-body{
-background:#0f0f0f;
-color:white;
-}
-
-header{
-
-background:black;
-padding:25px;
-text-align:center;
-border-bottom:2px solid gold;
-
-}
-
-.logo{
-
-width:130px;
-margin-bottom:15px;
-
-}
-
-header h1{
-
-font-size:40px;
-letter-spacing:8px;
-
-}
-
-header p{
-
-color:gold;
-margin-top:10px;
-
-}
-
-.launch{
-
-background:gold;
-color:black;
-padding:15px;
-text-align:center;
-font-weight:bold;
-
-}
-
-.hero{
-
-padding:70px 20px;
-text-align:center;
-
-}
-
-.hero h2{
-
-font-size:45px;
-margin-bottom:20px;
-
-}
-
-.hero p{
-
-font-size:18px;
-color:#ddd;
-max-width:700px;
-margin:auto;
-
-}
-
-button{
-
-margin-top:30px;
-padding:15px 35px;
-background:gold;
-color:black;
-border:none;
-border-radius:30px;
-font-size:18px;
-
-}
-
-.products{
-
-padding:60px 20px;
-
-}
-
-.products h2{
-
-text-align:center;
-margin-bottom:30px;
-font-size:35px;
-
-}
-
-.gallery{
-
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:15px;
-
-}
-
-.gallery img{
-
-width:100%;
-border-radius:15px;
-transition:.4s;
-
-}
-
-.gallery img:hover{
-
-transform:scale(1.05);
-
-}
-
-.about{
-
-padding:60px 20px;
-background:#181818;
-text-align:center;
-
-}
-
-.about h2{
-
-margin-bottom:20px;
-font-size:35px;
-
-}
-
-.about p{
-
-max-width:800px;
-margin:auto;
-line-height:1.8;
-color:#ddd;
-
-}
-
-.contact{
-
-padding:60px 20px;
-text-align:center;
-
-}
-
-.contact h2{
-
-font-size:35px;
-margin-bottom:20px;
-
-}
-
-.contact p{
-
-margin:15px;
-font-size:18px;
-
-}
-
-footer{
-
-background:black;
-padding:25px;
-text-align:center;
-color:gray;
-
-}
-
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
+<!-- Navigation -->
+
 <header>
+
+<nav>
 
 <img src="logo.png" class="logo">
 
-<h1>DWANGU</h1>
+<ul>
 
-<p>Less Noise, More Style</p>
+<li><a href="#home">Home</a></li>
+
+<li><a href="#collection">Collection</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
 
 </header>
 
-<div class="launch">
+<!-- Hero -->
 
-Available From— 20 JULY
+<section class="hero" id="home">
 
-</div>
+<div class="overlay">
 
-<section class="hero">
+<h1>DWANGU</h1>
 
-<h2>Premium Streetwear</h2>
+<h2>LESS NOISE.<br>MORE STYLE.</h2>
 
 <p>
 
-DWANGU is a premium clothing brand built for people who value confidence, simplicity, and timeless style. Every design is created to help you stand out without saying a word.
+The first collection is almost here.
+
+Premium streetwear inspired by confidence,
+
+simplicity and ambition.
+
+Launching officially on
+
+<b>20 July</b>.
 
 </p>
 
-<button>COMING SOON</button>
+<a href="#collection" class="btn">
+
+Explore Collection
+
+</a>
+
+</div>
 
 </section>
 
-<section class="products">
+<!-- Countdown -->
 
-<h2>Featured Hoodie</h2>
+<section class="countdown">
 
-<div class="gallery">
+<h2>Launch Countdown</h2>
+
+<div id="timer">
+
+Loading...
+
+</div>
+
+</section>
+
+<!-- Gallery -->
+
+<section class="gallery" id="collection">
+
+<h2>FIRST HOODIE COLLECTION</h2>
+
+<p>
+
+Take a first look at the hoodie from every angle.
+
+Official release on 20 July.
+
+</p>
+
+<div class="images">
 
 <img src="hoodie1.jpg">
 
@@ -242,59 +119,147 @@ DWANGU is a premium clothing brand built for people who value confidence, simpli
 
 </section>
 
-<section class="about">
+<!-- About -->
 
-<h2>About Us</h2>
+<section class="about" id="about">
+
+<h2>ABOUT DWANGU</h2>
 
 <p>
 
-DWANGU is more than just clothing. It is a lifestyle built on confidence, simplicity, and quality. Our mission is to create stylish apparel that inspires people to express themselves with elegance and purpose.
+DWANGU is more than clothing.
 
-Our slogan, <b>"Less Noise, More Style"</b>, reflects our belief that true confidence doesn't need to be loud.
+It represents confidence,
 
-We are excited to launch our first collection on <b>20 July</b>. Thank you for supporting our journey.
+discipline and individuality.
+
+Our mission is to create premium streetwear
+
+that speaks through quality,
+
+not noise.
+
+Every collection is designed
+
+to inspire people
+
+to wear confidence every day.
 
 </p>
 
 </section>
 
-<section class="contact">
+<!-- Why Choose -->
 
-<h2>Contact Us</h2>
+<section class="why">
+
+<h2>WHY DWANGU?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Premium Quality</h3>
+
+<p>
+
+Comfortable fabrics built to last.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Minimal Design</h3>
+
+<p>
+
+Simple.
+
+Clean.
+
+Timeless.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Limited Collection</h3>
+
+<p>
+
+Our first launch will be exclusive.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Launch -->
+
+<section class="launch">
+
+<h2>COMING 20 JULY</h2>
+
+<p>
+
+Our first hoodie collection
+
+isn't available for purchase yet.
+
+Follow the journey
+
+and be among the first
+
+to wear DWANGU.
+
+</p>
+
+</section>
+
+<!-- Contact -->
+
+<section class="contact" id="contact">
+
+<h2>CONTACT US</h2>
 
 <p>
 
 📱 WhatsApp
 
-<br>
+</p>
+
+<a href="https://wa.me/27605376579">
 
 060 537 6579
 
-</p>
+</a>
+
+<br><br>
 
 <p>
 
 📧 Email
 
-<br>
+</p>
+
+<a href="mailto:chibiekhonawo@gmail.com">
 
 chibiekhonawo@gmail.com
 
-</p>
-
-<p>
-
-Available from
-
-<br>
-
-20 July
-
-</p>
+</a>
 
 </section>
 
 <footer>
+
+<p>
 
 © 2026 DWANGU
 
@@ -302,7 +267,21 @@ Available from
 
 Less Noise. More Style.
 
+</p>
+
 </footer>
+
+<!-- WhatsApp Floating Button -->
+
+<a href="https://wa.me/27605376579"
+
+class="whatsapp">
+
+💬
+
+</a>
+
+<script src="script.js"></script>
 
 </body>
 
